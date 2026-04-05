@@ -22,4 +22,5 @@ The project is built on a sophisticated three-tier architecture:
 *   **Modern UI/UX**: Includes interactive sliders, custom hooks for state management, and a focus on accessibility.
 
 ### 🚀 Future Roadmap
-While currently a feature-rich MVP, the project is designed with modularity in mind to support future integrations such as **Stripe Payment Gateways** for billing and **AI-driven Chatbots** for preliminary diagnostics and symptom checking. Med Link is more than just a management tool; it is a scalable foundation for the future of digital health. (356 words)
+While currently a feature-rich MVP, the project is designed with modularity in mind to support future integrations such as **Stripe Payment Gateways** for billing and **AI-driven Chatbots** for preliminary diagnostics and symptom checking. Med Link is more than just a management tool; it is a scalable foundation for the future of digital health. 
+

@@ -1,0 +1,68 @@
+const doctorsData = [
+  {
+    id: 1,
+    name: 'Dr. Chaminda Silva',
+    img: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=80',
+    specialty: 'Cardiologist',
+    experience: '15 years',
+    description: 'Dr. Chaminda Silva is a highly experienced cardiologist known for his expertise in diagnosing and treating heart-related issues.',
+  },
+  {
+    id: 2,
+    name: 'Dr. Nadeeka Perera',
+    img: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=80',
+    specialty: 'Pediatrician',
+    experience: '10 years',
+    description: 'Dr. Nadeeka Perera is a dedicated pediatrician with a decade of experience in caring for children\'s health.',
+  },
+  {
+    id: 3,
+    name: 'Dr. Rajitha Fernando',
+    img: 'https://images.unsplash.com/photo-1537368910025-70280458b4f1?auto=format&fit=crop&w=500&q=80',
+    specialty: 'Orthopedic Surgeon',
+    experience: '20 years',
+    description: 'Dr. Rajitha Fernando is a skilled orthopedic surgeon with extensive experience in musculoskeletal disorders.',
+  },
+  {
+    id: 4,
+    name: 'Dr. Priyanthi Ranasinghe',
+    img: 'https://images.unsplash.com/photo-1594824432258-29624564c7a6?auto=format&fit=crop&w=500&q=80',
+    specialty: 'Dermatologist',
+    experience: '12 years',
+    description: 'Dr. Priyanthi Ranasinghe is an experienced dermatologist specializing in advanced skin care procedures.',
+  },
+  {
+    id: 5,
+    name: 'Dr. Dinesh Bandara',
+    img: 'https://ui-avatars.com/api/?name=Dinesh+Bandara&background=0284c7&color=fff&size=512',
+    specialty: 'Cardiologist',
+    experience: '18 years',
+    description: 'Dr. Dinesh Bandara is a skilled cardiologist with 18 years of experience in diagnosing and treating complex conditions.',
+  },
+  {
+    id: 6,
+    name: 'Dr. Sanduni Perera',
+    img: 'https://ui-avatars.com/api/?name=Sanduni+Perera&background=0284c7&color=fff&size=512',
+    specialty: 'Pediatrician',
+    experience: '14 years',
+    description: 'Dr. Sanduni Perera is a compassionate pediatrician with 14 years of experience providing care to children.',
+  },
+  {
+    id: 7,
+    name: 'Dr. Ranil Jayawardena',
+    img: 'https://ui-avatars.com/api/?name=Ranil+Jayawardena&background=0284c7&color=fff&size=512',
+    specialty: 'Orthopedic Surgeon',
+    experience: '19 years',
+    description: 'Dr. Ranil Jayawardena is an experienced orthopedic surgeon with nearly two decades of dedicated practice.',
+  },
+  {
+    id: 8,
+    name: 'Dr. Dilini Karunaratne',
+    img: 'https://ui-avatars.com/api/?name=Dilini+Karunaratne&background=0284c7&color=fff&size=512',
+    specialty: 'Dermatologist',
+    experience: '15 years',
+    description: 'Dr. Dilini Karunaratne is a dermatologist specializing in skincare and dermatological treatments.',
+  },
+];
+
+export default doctorsData;

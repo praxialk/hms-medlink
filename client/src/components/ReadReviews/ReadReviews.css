@@ -1,0 +1,130 @@
+.review-header {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.containerleft h1 {
+  font-family: inherit;
+  margin-bottom: 24px;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: var(--primary-color);
+  line-height: 1.1;
+}
+
+.containerleft p {
+  color: var(--text-secondary);
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.containerleft button {
+  margin-top: 20px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--primary-color);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.containerleft button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
+  background: var(--primary-hover);
+}
+
+.containerright {
+  display: grid;
+  gap: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+.containerright::-webkit-scrollbar {
+  width: 6px;
+}
+
+.containerright::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.review-card {
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: var(--surface-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateX(5px);
+  box-shadow: var(--shadow-lg);
+  border-color: #cbd5e1;
+}
+
+.Reviewcontent {
+  display: flex;
+  gap: 16px;
+}
+
+.Reviewcontent span i {
+  font-size: 32px;
+  color: var(--primary-color);
+  opacity: 0.2;
+}
+
+.Reviewdetails h3 {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.Reviewdetails p {
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.Reviewdetails h4 {
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.review-link {
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

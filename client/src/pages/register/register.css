@@ -1,0 +1,134 @@
+.register-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.register-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+}
+
+.register {
+  width: 100%;
+  max-width: 500px;
+  background: var(--surface-color);
+  padding: 50px 40px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--glass-border);
+}
+
+.text {
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background: var(--primary-color);
+  border-radius: 4px;
+  margin: 0 auto 30px auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius-md);
+  padding: 0 16px;
+  transition: all 0.2s ease;
+}
+
+.input:focus-within {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+  background: var(--surface-color);
+}
+
+.input i {
+  color: var(--text-secondary);
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.input input {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 16px 0;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 15px;
+}
+
+.input input::placeholder {
+  color: #94a3b8;
+}
+
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.submit {
+  width: 100%;
+  background: var(--primary-color);
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+  text-align: center;
+}
+
+.submit:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+}
+
+.error {
+  color: #ef4444;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.message {
+  color: #10b981;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+  background: #ecfdf5;
+  padding: 10px;
+  border-radius: var(--radius-md);
+}
+
+.userSubmit {
+  text-decoration: none;
+  display: none;
+}

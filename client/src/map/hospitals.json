@@ -1,0 +1,447 @@
+{
+  "hospitals": [
+    {
+      "name": "Lanka Hospitals (Pvt) Ltd",
+      "district": "Colombo",
+      "address": "578, Elvitigala Mawatha, Colombo 05",
+      "contact_no": "011-4530 000",
+      "email": "info@lankahospitals.com"
+    },
+    {
+      "name": "The Central Hospital Col.10 (Asha)",
+      "district": "Colombo",
+      "address": "114, Norris Canal Road, Colombo 10",
+      "contact_no": "011-4660 000",
+      "email": "centralhospital@gmail.com"
+    },
+    {
+      "name": "Asiri Hospitals - Colombo 05",
+      "district": "Colombo",
+      "address": "No 21, Kirimandala Mawatha, Colombo 05",
+      "contact_no": "011-4523 300",
+      "email": "info@asiri.lk"
+    },
+    {
+      "name": "Asiri Surgical - Colombo 05",
+      "district": "Colombo",
+      "address": "No 181, Kirula Rd, Colombo 05",
+      "contact_no": "011-2368 407",
+      "email": "surgical@asiri.lk"
+    },
+    {
+      "name": "Durdans Hospital Colombo 03 (Card is not entertained for Heart Centre)",
+      "district": "Colombo",
+      "address": "3 Alfred Place, Colombo 03",
+      "contact_no": "011-2575 555",
+      "email": "info@durdans.com"
+    },
+    {
+      "name": "Jeewaka Hospital Padukka",
+      "district": "Colombo",
+      "address": "High Level Rd, Padukka",
+      "contact_no": "011-2859 157",
+      "email": "jeewakahospital@gmail.com"
+    },
+    {
+      "name": "Mc-Carthy Hospital Colombo 07",
+      "district": "Colombo",
+      "address": "No. 27, Attidiya Rd, Colombo 07",
+      "contact_no": "011-2693 953",
+      "email": "mccarthyhospital@gmail.com"
+    },
+    {
+      "name": "Medical Center Ltd Dehiwela",
+      "district": "Colombo",
+      "address": "No. 332, Hill St, Dehiwala-Mount Lavinia",
+      "contact_no": "011-2717 979",
+      "email": "medicalcenter@gmail.com"
+    },
+    {
+      "name": "Winsetha Hospital (Fomer Medicare Hospital) - Colombo 10",
+      "district": "Colombo",
+      "address": "484, Maradana Rd, Colombo 10",
+      "contact_no": "011-2667 297",
+      "email": "winsethahospital@gmail.com"
+    },
+    {
+      "name": "Nawaloka Hospital Colombo 02",
+      "district": "Colombo",
+      "address": "No. 23, Deshamanya H. K. Dharmadasa Mawatha, Colombo 02",
+      "contact_no": "011-5577 111",
+      "email": "info@nawaloka.com"
+    },
+    {
+      "name": "New Delmon Hospital-Colombo 06",
+      "district": "Colombo",
+      "address": "No. 63, Kinross Ave, Colombo 06",
+      "contact_no": "011-2586 893",
+      "email": "newdelmonhospital@gmail.com"
+    },
+    {
+      "name": "Oasis Hospital Ltd Colombo 05",
+      "district": "Colombo",
+      "address": "No. 4, Lauries Rd, Colombo 05",
+      "contact_no": "011-5506 000",
+      "email": "info@oasis.lk"
+    },
+    {
+      "name": "Pannipitiya Nursing Home",
+      "district": "Colombo",
+      "address": "Pannipitiya",
+      "contact_no": "011-2840 384",
+      "email": "info@pannipitiyahospital.com"
+    },
+    {
+      "name": "Joseph Fraser Hospital - Col 7",
+      "district": "Colombo",
+      "address": "No. 5, Jaya Mw, Colombo 07",
+      "contact_no": "011-2556 338",
+      "email": "josephfraserhospital@gmail.com"
+    },
+    {
+      "name": "Panadura Nursing Home",
+      "district": "Colombo",
+      "address": "Panadura",
+      "contact_no": "038-2236 300",
+      "email": "info@panadurahospital.com"
+    },
+    {
+      "name": "Sri Jayewardenapura Gen. Hos",
+      "district": "Colombo",
+      "address": "Nawala Rd, Sri Jayawardenepura Kotte",
+      "contact_no": "011-2778 610-12",
+      "email": "info@sjgh.lk"
+    },
+    {
+      "name": "Ninewells Care Hospital (Pvt) Ltd.",
+      "district": "Colombo",
+      "address": "55, Gotami Rd, Colombo 06",
+      "contact_no": "011-4520 999",
+      "email": "info@ninewellscare.com"
+    },
+    {
+      "name": "Royal Hospital Wellawatte",
+      "district": "Colombo",
+      "address": "No. 181, W.A. Silva Mawatha, Colombo 06",
+      "contact_no": "011-2597 565",
+      "email": "info@royalhospital.lk"
+    },
+    {
+      "name": "Golden Key EENT Hospital",
+      "district": "Colombo",
+      "address": "No. 125, Prof. Stanley Wijesundara Mawatha, Colombo 07",
+      "contact_no": "011-2880 288",
+      "email": "info@goldenkeyhospital.com"
+    },
+    {
+      "name": "Siddalepa Ayurveda Hospital-Mt.Lavinia",
+      "district": "Colombo",
+      "address": "No. 104A, Templer's Rd, Mount Lavinia",
+      "contact_no": "011-2721365",
+      "email": "info@siddalepahospital.com"
+    },
+    {
+      "name": "Dr. Neville Fernando Teaching Hospital -Kaduwela.",
+      "district": "Colombo",
+      "address": "Rathupaswala, Kaduwela",
+      "contact_no": "0112-407608",
+      "email": "info@nevillefernandohospital.com"
+    },
+    {
+      "name": "Hemas Capital Hospitals (Pvt) ltd., Thalawathugoda",
+      "district": "Colombo",
+      "address": "Battaramulla - Pannipitiya Road, Thalawathugoda",
+      "contact_no": "011-7-888 888",
+      "email": "info@hemashospitals.com"
+    },
+    {
+      "name": "Nawinna Medicare Hospitals (Pvt) Ltd",
+      "district": "Colombo",
+      "address": "No. 57, Old Kesbewa Rd, Nawinna",
+      "contact_no": "0114 367636/ 011 5741701",
+      "email": "info@nawinnamedicare.com"
+    },
+    {
+      "name": "Venus Hospital Avissawella",
+      "district": "Kalutara",
+      "address": "No. 24, Wellawaya Road, Avissawella",
+      "contact_no": "362222096",
+      "email": "info@venushospital.lk"
+    },
+    {
+      "name": "Kelanivelly Hospital Avissawella",
+      "district": "Kalutara",
+      "address": "Pasyala Road, Avissawella",
+      "contact_no": "362222727",
+      "email": "info@kelanivellyhospital.com"
+    },
+    {
+      "name": "Co-oprative Hospital Galle",
+      "district": "Galle",
+      "address": "Colombo Rd, Galle",
+      "contact_no": "091-2224424",
+      "email": "info@cooperativehospitalgalle.com"
+    },
+    {
+      "name": "Ruhunu Hospital-Karapitiya - (Galle)",
+      "district": "Galle",
+      "address": "Karapitiya, Galle",
+      "contact_no": "091-2234 059",
+      "email": "info@ruhunuhospital.com"
+    },
+    {
+      "name": "Hemas Southern Hospital-Galle",
+      "district": "Galle",
+      "address": "Labuduwa, Galle",
+      "contact_no": "091-2222 187",
+      "email": "info@hemassouthern.com"
+    },
+    {
+      "name": "Leesons Hospital - Ragama",
+      "district": "Gampaha",
+      "address": "Colombo - Kandy Rd, Ragama",
+      "contact_no": "011-2951 488",
+      "email": "info@leesonshospital.com"
+    },
+    {
+      "name": "St. Joseph Hosp. Negombo",
+      "district": "Gampaha",
+      "address": "Kochchikade, Negombo",
+      "contact_no": "031-2225 474",
+      "email": "info@stjosephnegombo.com"
+    },
+    {
+      "name": "Ave Maria Hospital-Negombo",
+      "district": "Gampaha",
+      "address": "Maris Stella Mw, Negombo",
+      "contact_no": "031-2232 670/031-2222974",
+      "email": "info@avemarianegombo.com"
+    },
+    {
+      "name": "Hemas Hospital Ltd.Wattala",
+      "district": "Gampaha",
+      "address": "Colombo - Katunayake Expressway, Wattala",
+      "contact_no": "011-7-888 888",
+      "email": "info@hemashospitals.com"
+    },
+    {
+      "name": "Arogya Hospital Ltd -Gampaha",
+      "district": "Gampaha",
+      "address": "Colombo - Kandy Rd, Gampaha",
+      "contact_no": "033-2224592",
+      "email": "info@arogyahospitalgampaha.com"
+    },
+    {
+      "name": "Viweka Hospital -Veyangoda",
+      "district": "Gampaha",
+      "address": "Hettipola Rd, Veyangoda",
+      "contact_no": "033-2295965",
+      "email": "info@viwekahospital.com"
+    },
+    {
+      "name": "Gampaha Co-operative Hospital - Gampaha",
+      "district": "Gampaha",
+      "address": "Colombo Rd, Gampaha",
+      "contact_no": "033-2222201",
+      "email": "info@gampahacooperativehospital.com"
+    },
+    {
+      "name": "Sethma Hospital-Gampaha",
+      "district": "Gampaha",
+      "address": "Kandy Rd, Gampaha",
+      "contact_no": "033-2233501",
+      "email": "info@sethmahospital.com"
+    },
+    {
+      "name": "Nawaloka Hospital Negambo",
+      "district": "Gampaha",
+      "address": "No. 23, Negombo Rd, Negombo",
+      "contact_no": "315577111",
+      "email": "info@nawalokanegombo.com"
+    },
+    {
+      "name": "Browns Hospitals",
+      "district": "Gampaha",
+      "address": "No. 30, Colombo Rd, Ragama",
+      "contact_no": "115714714",
+      "email": "info@brownshospitals.com"
+    },
+    {
+      "name": "Katukurunda Clinic & Nursing",
+      "district": "Kalutara",
+      "address": "Matugama Rd, Kalutara",
+      "contact_no": "034-2222 212",
+      "email": "info@katukurundaclinic.com"
+    },
+    {
+      "name": "New Philip Hospitals Kalutara",
+      "district": "Kalutara",
+      "address": "No. 75, Galle Rd, Kalutara",
+      "contact_no": "034-2222 886/ 034-2222 888",
+      "email": "info@newphiliphospitals.com"
+    },
+    {
+      "name": "FamilyCare Kalutara",
+      "district": "Kalutara",
+      "address": "Vihara Mw, Kalutara",
+      "contact_no": "034-2229 944",
+      "email": "info@familycarekalutara.com"
+    },
+    {
+      "name": "Kandy Nursing Homes Ltd Kandy",
+      "district": "Kandy",
+      "address": "No. 35, Yatinuwara Vidiya, Kandy",
+      "contact_no": "081-2222 041",
+      "email": "info@kandynursinghomes.com"
+    },
+    {
+      "name": "Lake Side Hospitals Kandy",
+      "district": "Kandy",
+      "address": "Kandy - Mahiyangana Rd, Kandy",
+      "contact_no": "081-2223 466",
+      "email": "info@lakesidekandy.com"
+    },
+    {
+      "name": "Suwa Sewana Hospital Kandy",
+      "district": "Kandy",
+      "address": "Galaha Rd, Kandy",
+      "contact_no": "081-2236 404",
+      "email": "info@suwasewanakandy.com"
+    },
+    {
+      "name": "Kandy Private Hospital",
+      "district": "Kandy",
+      "address": "Katugastota Rd, Kandy",
+      "contact_no": "081-2234 338",
+      "email": "info@kandyprivatehospital.com"
+    },
+    {
+      "name": "Mobile Medicare Hospital Kandy",
+      "district": "Kandy",
+      "address": "Dangolla, Kandy",
+      "contact_no": "081-2203366-081-4470366",
+      "email": "info@mobilemedicarekandy.com"
+    },
+    {
+      "name": "Cooprative Hospital- Kurunegala",
+      "district": "Kurunegala",
+      "address": "Colombo Rd, Kurunegala",
+      "contact_no": "037-2222 464",
+      "email": "info@cooprativehospital.com"
+    },
+    {
+      "name": "Seth Sewana Hospital -Kurunegala",
+      "district": "Kurunegala",
+      "address": "Makumbura, Kurunegala",
+      "contact_no": "037-2232 365",
+      "email": "info@sethsewanahospital.com"
+    },
+    {
+      "name": "Nawinne Hospital -Kurunegala",
+      "district": "Kurunegala",
+      "address": "Colombo Rd, Kurunegala",
+      "contact_no": "037-2223 111",
+      "email": "info@nawinnehospital.com"
+    },
+    {
+      "name": "Miracle Hospital -Kurunegala",
+      "district": "Kurunegala",
+      "address": "No. 10, Colombo Rd, Kurunegala",
+      "contact_no": "037-7390 350",
+      "email": "info@miraclehospital.com"
+    },
+    {
+      "name": "Mohotti (Pvt) Hospital -Matara",
+      "district": "Matara",
+      "address": "No. 162, Anagarika Dharmapala Mawatha, Matara",
+      "contact_no": "041-2222737",
+      "email": "info@mohottihospitalmatara.com"
+    },
+    {
+      "name": "Asiri Hospital Matara ( Pvt ) Ltd -Matara- Uyanwatta",
+      "district": "Matara",
+      "address": "Uyanwatta, Matara",
+      "contact_no": "041-4390 900/041-2223180",
+      "email": "info@asirihospitalmatara.com"
+    },
+    {
+      "name": "Asiri Hospital Matara ( Pvt ) Ltd -Matara-Galle Road",
+      "district": "Matara",
+      "address": "No. 95, Galle Rd, Matara",
+      "contact_no": "041-4390 900/041-2223180",
+      "email": "info@asirihospitalmatara.com"
+    },
+    {
+      "name": "Singhe Hospital Limited - Ratnapura",
+      "district": "Rathnapura",
+      "address": "No. 78, Colombo Rd, Ratnapura",
+      "contact_no": "045-2232232",
+      "email": "info@singhehospital.com"
+    },
+    {
+      "name": "Sample Hospital 1",
+      "district": "Jaffna",
+      "address": "Sample Address 1",
+      "contact_no": "011-1234567",
+      "email": "samplehospital1@example.com"
+    },
+    {
+      "name": "Sample Hospital 2",
+      "district": "Jaffna",
+      "address": "Sample Address 2",
+      "contact_no": "011-2345678",
+      "email": "samplehospital2@example.com"
+    },
+    {
+      "name": "Sample Hospital 3",
+      "district": "anuradhapura",
+      "address": "Sample Address 3",
+      "contact_no": "033-3456789",
+      "email": "samplehospital3@example.com"
+    },
+    {
+      "name": "Sample Hospital 4",
+      "district": "anuradhapura",
+      "address": "Sample Address 4",
+      "contact_no": "081-4567890",
+      "email": "samplehospital4@example.com"
+    },
+    {
+      "name": "Sample Hospital 5",
+      "district": "anuradhapura",
+      "address": "Sample Address 5",
+      "contact_no": "041-5678901",
+      "email": "samplehospital5@example.com"
+    },
+    {
+      "name": "Sample Hospital 6",
+      "district": "Badulla",
+      "address": "Sample Address 6",
+      "contact_no": "045-6789012",
+      "email": "samplehospital6@example.com"
+    },
+    {
+      "name": "Sample Hospital 7",
+      "district": "Badulla",
+      "address": "Sample Address 7",
+      "contact_no": "034-7890123",
+      "email": "samplehospital7@example.com"
+    },
+    {
+      "name": "Sample Hospital 8",
+      "district": "Badulla",
+      "address": "Sample Address 8",
+      "contact_no": "091-8901234",
+      "email": "samplehospital8@example.com"
+    }
+  ],
+  "unapproved_hospitals": [
+    "Borella Pvt Hospital",
+    "Kolonnawa Nursing Home",
+    "Nugegoda Nursing Home",
+    "Horana Pvt Hospital",
+    "Suwa Shanthi Hospital - Anuradhapura",
+    "Navodya Hospital - Embilipitiya",
+    "Suleiman Hospital-Colombo 14"
+  ]
+}

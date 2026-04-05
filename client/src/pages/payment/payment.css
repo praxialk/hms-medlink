@@ -1,0 +1,113 @@
+.payment-page {
+  --primary-color: #0d9488;
+  --primary-hover: #0f766e;
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.payment-card {
+  width: 100%;
+  max-width: 900px;
+  background: var(--surface-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+}
+
+.payment-image {
+  flex: 1;
+  min-height: 400px;
+}
+
+.payment-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.payment-form {
+  flex: 1.2;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-details p {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: -0.5px;
+}
+
+.payment-message {
+  color: #ef4444;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.payment-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+  background-color: #f8fafc;
+}
+
+.payment-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+  background-color: var(--surface-color);
+}
+
+.payment-exp-cvv {
+  display: flex;
+  gap: 20px;
+}
+
+.payment-button {
+  background: var(--primary-color);
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}
+
+.payment-button:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+}
+
+@media only screen and (max-width: 768px) {
+  .payment-card {
+    flex-direction: column;
+  }
+
+  .payment-image {
+    min-height: 200px;
+  }
+
+  .payment-form {
+    padding: 30px 20px;
+  }
+}

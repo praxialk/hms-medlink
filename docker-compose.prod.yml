@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "hms"
+    volumes:
+      - "./hms (2).sql:/docker-entrypoint-initdb.d/init.sql"
+      - db_data:/var/lib/mysql
+    # NOTICE! Ports are removed in production. The DB is only accessible on the internal docker network.
+
+  api:
+    build: 
+      context: ./api
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      - DB_HOST=db
+    volumes:
+      - ./api:/var/www/html
+    depends_on:
+      - db
+
+  socket:
+    build:
+      context: ./server
+    restart: always
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./server:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - db
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.prod
+    restart: always
+    ports:
+      # React static files will be served on port 80/3000
+      - "3000:80"
+    environment:
+      # REPLACE YOU_SERVER_IP WITH YOUR ACTUAL SERVER IP ADDRESS ONCE YOU GET IT
+      - REACT_APP_API_URL=http://144.24.127.72:8080
+      - REACT_APP_SOCKET_URL=http://144.24.127.72:3001
+    depends_on:
+      - api
+      - socket
+
+volumes:
+  db_data:

@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "hms"
+    volumes:
+      - "./hms (2).sql:/docker-entrypoint-initdb.d/init.sql"
+    ports:
+      - "3306:3306"
+
+  api:
+    build: 
+      context: ./api
+    ports:
+      - "8080:80"
+    environment:
+      - DB_HOST=db
+    volumes:
+      - ./api:/var/www/html
+    depends_on:
+      - db
+
+  socket:
+    build:
+      context: ./server
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./server:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - db
+
+  client:
+    build:
+      context: ./client
+    ports:
+      - "3000:3000"
+    environment:
+      # Use polling for hot reloading in docker
+      - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_API_URL=http://localhost:8080
+      - REACT_APP_SOCKET_URL=http://localhost:3001
+    volumes:
+      - ./client:/usr/src/app
+      - /usr/src/app/node_modules

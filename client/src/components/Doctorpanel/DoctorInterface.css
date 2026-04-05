@@ -1,0 +1,42 @@
+.doctor-panel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.emergency-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.emergency-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.emergency-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
